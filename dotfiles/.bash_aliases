@@ -18,10 +18,6 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
-# activate pandata virtual environment (only dh specific)
-alias start_pandata='source /home/asad/venvs/datahub-airflow/bin/activate && cd /home/asad/Documents/datahub-airflow'
-alias pandata_eu='start_pandata && cd dags/pandata/transform/report/eu'
-
 # clean all branches in current repo
 alias clean_repo='git branch | grep -v "main" | xargs git branch -D'
 
