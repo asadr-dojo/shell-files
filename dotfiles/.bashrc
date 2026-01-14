@@ -6,3 +6,5 @@ bindkey "\e[B" history-search-forward
 bindkey "\eOA" history-search-backward
 bindkey "\eOB" history-search-forward
 
+export HISTSIZE=1000000
+export SAVEHIST=1000000
