@@ -18,6 +18,13 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
+# Use eza instead of ls and tree
+alias l='eza --long --git'
+alias la='eza --long --all --git'
+alias lsd='eza --list-dirs'
+alias ls='eza'
+alias tree='eza --tree'
+
 # clean all branches in current repo
 alias clean_repo='git branch | grep -v "main" | xargs git branch -D'
 
