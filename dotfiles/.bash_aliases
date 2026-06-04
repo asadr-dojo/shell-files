@@ -12,6 +12,9 @@ alias gpoc='git push -u origin $(git branch --show-current)'
 alias local_ignore='git update-index --skip-worktree'
 alias local_unignore='git update-index --no-skip-worktree'
 
+alias cp='cp -i'
+alias mv='mv -i'
+
 # Easier navigation:
 alias ..='cd ..'
 alias ...='cd ../..'
