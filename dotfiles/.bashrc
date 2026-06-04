@@ -8,3 +8,5 @@ bindkey "\eOB" history-search-forward
 
 export HISTSIZE=1000000
 export SAVEHIST=1000000
+
+set -o noclobber
